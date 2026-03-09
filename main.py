@@ -75,15 +75,24 @@ if __name__ == "__main__":
     SMTP_CONFIG = {
         'smtp_server': 'smtp.gmail.com', 
         'smtp_port': 587,
-        'email': 'kutagenda10@gmail.com',
-        'password': 'pryz yubi qtar eqgh'
+        'email': 'hudsonmoreiraoliveira501@gmail.com',
+        'password': 'zfyt rqks enkk zwis'
     }
     
     destinatarios = [
-        'hudsonmoreiraoliveira501@gmail.com'
+        'hudsonmoreiraoliveira501@gmail.com',
+        'contato@conectastartupbrasil.org.br',
+        'contato@outreachbrasil.com',
+        'comercial@mogai.com.br',
+        'contato@saffos.com.br',
+        'contato@idmtecnologia.com.br',
+        'contato@grsservicos.com',
+        'contato@icat.art.br',
+        'contato@qu4ttro.com.br',
+        'contato@optustecnologia.com.br',
     ]
     
-    assunto = "Código, impacto e entrega — prazer, Hudson Moreira"
+    assunto = "Hudson Moreira | Desenvolvedor disponível para projetos freelance"
     
     html_content = ler_html('template_email.html')
     
